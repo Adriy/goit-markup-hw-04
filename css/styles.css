@@ -150,7 +150,7 @@ img {
 
 .site-nav .item + .item,
 .contacts-nav .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .site-nav .link {
@@ -179,6 +179,14 @@ img {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
+.contacts-nav .thumb {
+  display: flex;
+}
+
+.contacts-nav .cont {
+  margin-left: 10px;
+}
 /* ================END HEADER================== */
 
 /* ================HERO================== */
@@ -193,6 +201,8 @@ img {
   max-width: 1600px;
   height: 600px;
   padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -353,6 +363,12 @@ img {
   color: var(--primary-text-color);
   font-weight: normal;
 }
+
+.team .link {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px 32px 30px 32px;
+}
 /* ================END OUR TEAM================== */
 
 /* ================REGULAR CUSTOMERS================== */
@@ -371,12 +387,6 @@ img {
 .customers .item:not(:first-child) {
   margin-left: 30px;
 }
-
-.customers .icon {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* ================END REGULAR CUSTOMERS================== */
 
 /* ================FOOTER================== */
