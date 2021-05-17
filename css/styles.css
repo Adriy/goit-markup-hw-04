@@ -184,8 +184,17 @@ img {
   display: flex;
 }
 
-.contacts-nav .cont {
+.header .cont {
   margin-left: 10px;
+}
+
+.header .icon {
+  fill: currentColor;
+}
+
+.header .thumb:hover,
+.header .thumb:focus {
+  color: var(--accent-color);
 }
 /* ================END HEADER================== */
 
@@ -364,11 +373,28 @@ img {
   font-weight: normal;
 }
 
-.team .link {
+.team .thumb {
   display: flex;
   justify-content: space-around;
   margin: 16px 32px 30px 32px;
 }
+
+.team .icon {
+  fill: var(--border-cards-customers);
+}
+
+.team .link {
+}
+
+.team .link:hover {
+  background-color: var(--accent-color);
+}
+
+.team .icon:hover {
+  fill: var(--primary-white-color);
+  /* background-color: var(--accent-color); */
+}
+
 /* ================END OUR TEAM================== */
 
 /* ================REGULAR CUSTOMERS================== */
@@ -386,6 +412,14 @@ img {
 
 .customers .item:not(:first-child) {
   margin-left: 30px;
+}
+
+.customers .icon {
+  fill: var(--border-cards-customers);
+}
+
+.customers .icon:hover {
+  fill: var(--accent-color);
 }
 /* ================END REGULAR CUSTOMERS================== */
 
