@@ -342,7 +342,7 @@ img {
 
 .team .description {
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .team .item {
@@ -373,6 +373,20 @@ img {
   font-weight: normal;
 }
 
+.team .link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .link:hover,
+.team .link:focus {
+  background-color: var(--accent-color);
+}
+
 .team .thumb {
   display: flex;
   justify-content: space-around;
@@ -382,19 +396,15 @@ img {
 .team .icon {
   fill: var(--border-cards-customers);
 }
-
-.team .link {
-}
-
+/* 
 .team .link:hover {
   background-color: var(--accent-color);
-}
+} */
 
-.team .icon:hover {
+.team .icon:hover,
+.team .icon:focus {
   fill: var(--primary-white-color);
-  /* background-color: var(--accent-color); */
 }
-
 /* ================END OUR TEAM================== */
 
 /* ================REGULAR CUSTOMERS================== */
@@ -403,12 +413,19 @@ img {
 }
 
 .customers .thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--border-cards-customers);
   border-radius: 4px;
   margin-bottom: 0;
 }
+
+/* .customers .thumb:hover{
+  border: 1px solid var(--accent-color);
+} */
 
 .customers .item:not(:first-child) {
   margin-left: 30px;
