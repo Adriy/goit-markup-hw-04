@@ -548,10 +548,16 @@ img {
   margin-bottom: 0;
 }
 
-.shadow:focus,
+.projects .flex-element:hover,
+.projects .flex-element:focus {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* .shadow:focus,
 .shadow:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
 
 .projects-list {
   text-decoration: none;
