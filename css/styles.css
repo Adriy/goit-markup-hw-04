@@ -373,6 +373,12 @@ img {
   font-weight: normal;
 }
 
+.team .thumb {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px 32px 30px 32px;
+}
+
 .team .link {
   display: flex;
   width: 44px;
@@ -385,12 +391,6 @@ img {
 .team .link:hover,
 .team .link:focus {
   background-color: var(--accent-color);
-}
-
-.team .thumb {
-  display: flex;
-  justify-content: space-around;
-  margin: 16px 32px 30px 32px;
 }
 
 .team .icon {
@@ -423,16 +423,20 @@ img {
   margin-bottom: 0;
 }
 
-/* .customers .thumb:hover{
-  border: 1px solid var(--accent-color);
-} */
-
 .customers .item:not(:first-child) {
   margin-left: 30px;
 }
 
+.customers .item:hover {
+  fill: var(--accent-color);
+}
+
 .customers .icon {
   fill: var(--border-cards-customers);
+}
+
+.customers .thumb:hover {
+  border: 1px solid var(--accent-color);
 }
 
 .customers .icon:hover {
@@ -443,6 +447,11 @@ img {
 /* ================FOOTER================== */
 .footer {
   background: #2f303a;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer {
@@ -479,6 +488,45 @@ img {
   margin-bottom: 9px;
 }
 
+.footer .thumb {
+  margin-left: 70px;
+}
+
+.social-link {
+  display: flex;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer .item {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .item:hover,
+.footer .item:focus {
+  background-color: var(--accent-color);
+}
+
+.footer .icon {
+  fill: var(--primary-white-color);
+}
+
+.footer .item:not(:first-child) {
+  margin-left: 10px;
+}
 /* ================END FOOTER================== */
 
 /* ================PORTFOLIO================== */
@@ -548,16 +596,10 @@ img {
   margin-bottom: 0;
 }
 
-.projects .flex-element:hover,
-.projects .flex-element:focus {
+.projects .flex-element:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-/* .shadow:focus,
-.shadow:hover {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-} */
 
 .projects-list {
   text-decoration: none;
@@ -580,7 +622,6 @@ img {
   font-size: 16px;
   line-height: 1.9;
 }
-
 /* ================END PORTFOLIO================== */
 
 /* ================TEST================== */
