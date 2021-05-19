@@ -426,22 +426,19 @@ img {
   margin-left: 30px;
 }
 
-.customers .item:hover {
-  fill: var(--accent-color);
-  fill: currentColor;
-}
-
 .customers .icon {
   fill: var(--border-cards-customers);
 }
+.customers .icon:hover,
+.customers .icon:focus {
+  fill: var(--accent-color);
+}
 
-.customers .thumb:hover {
+.customers .thumb:hover,
+.customers .thumb:focus {
   border: 1px solid var(--accent-color);
 }
 
-.customers .icon:hover {
-  fill: var(--accent-color);
-}
 /* ================END REGULAR CUSTOMERS================== */
 
 /* ================FOOTER================== */
@@ -519,15 +516,15 @@ img {
   margin-left: 10px;
 }
 
+.footer .icon {
+  margin: 12px;
+  fill: var(--primary-white-color);
+}
+
 .footer .link:hover,
 .footer .link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
-}
-
-.footer .icon {
-  margin: 12px;
-  fill: var(--primary-white-color);
 }
 /* ================END FOOTER================== */
 
