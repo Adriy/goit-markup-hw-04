@@ -115,6 +115,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+
   /* justify-content: space-around; */
 }
 
@@ -179,34 +180,23 @@ img {
   color: var(--accent-color);
 }
 
-.contacts-nav .thumb {
+.contacts-nav .cont {
   display: flex;
   align-items: center;
 }
 
-.header .cont {
-  margin-left: 10px;
+.header .icon {
+  margin-right: 10px;
 }
 
 .header .icon {
   fill: currentColor;
 }
 
-.header .item:hover,
-.header .item:focus {
+.header .item:hover .icon,
+.header .item:focus .icon {
   color: var(--accent-color);
 }
-
-/* .link.line:hover::after {
-  display: block;
-  content: '';
-  width: 100%;
-  height: 4px;
-  margin: 0 auto;
-  margin-top: 28px;
-  padding-bottom: 0;
-  background-color: var(--accent-color);
-} */
 /* ================END HEADER================== */
 
 /* ================HERO================== */
