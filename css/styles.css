@@ -437,7 +437,7 @@ img {
   border: 1px solid var(--accent-color);
 }
 
-.customers.icon:hover {
+.customers .link:hover .icon {
   fill: var(--accent-color);
 }
 
