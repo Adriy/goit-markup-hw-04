@@ -423,11 +423,13 @@ img {
   fill: var(--border-cards-customers);
 }
 
-.customers .link:hover {
+.customers .link:hover,
+.customers .link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.customers .link:hover .icon {
+.customers .link:hover .icon,
+.customers .link:focus .icon {
   fill: var(--accent-color);
 }
 
