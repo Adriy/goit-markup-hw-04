@@ -338,11 +338,12 @@ img {
 }
 
 .team {
-  background-color: red;
+  background-color: var(--button-color-portfolio);
 }
 
 .team .description {
-  margin-top: 30px;
+  padding-top: 30px;
+  background-color: var(--primary-white-color);
   /* margin-bottom: 30px; */
 }
 
@@ -377,7 +378,7 @@ img {
 .team .social-list {
   display: flex;
   justify-content: space-around;
-  margin: 16px 32px 30px 32px;
+  padding: 16px 32px 30px 32px;
 }
 
 .team .social-list-link {
