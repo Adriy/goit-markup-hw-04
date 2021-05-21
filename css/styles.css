@@ -146,7 +146,10 @@ img {
   margin-left: 93px;
 }
 
-.site-nav .item + .item,
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .contacts-nav .item + .item {
   margin-left: 30px;
 }
@@ -332,6 +335,10 @@ img {
 /* ================OUR TEAM================== */
 .team {
   display: flex;
+}
+
+.team {
+  background-color: red;
 }
 
 .team .description {
