@@ -268,16 +268,14 @@ img {
 }
 
 .advantages .thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: var(--button-color-portfolio);
   margin-bottom: 30px;
 }
-
-.advantages .icon {
-  margin: 25px 100px;
-}
-
 /* item */
 /* .advantages .item::before {
   content: '';
